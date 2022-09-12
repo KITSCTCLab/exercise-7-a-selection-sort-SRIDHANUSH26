@@ -2,7 +2,7 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
     for n in range(len(array)):
-        min_val = v
+        min_val = n
         for num in range(n + 1, len(array)):
             if array[min_val] > array[num]:
                 min_val = num
